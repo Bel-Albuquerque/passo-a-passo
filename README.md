@@ -25,7 +25,7 @@ Para verificar a versão do compilador Java:
 Caso queira desinstalar o Oracle Java 11 no Ubuntu, Linux Mint ou Debian, execute o comando abaixo:
 
 ```
- sudo apt remove openjdk-11-jdk
+ sudo apt remove openjdk-11*
 ```
 
 Instalando o Eclipse em ambiente Linux:
@@ -47,9 +47,9 @@ gedit ~/.local/share/applications/Eclipse.desktop
 Comment=Eclipse
 Terminal=false
 Name=Eclipse
-Exec=/home/usuario/Downloads/eclipse-jee-2021-03-R-linux-gtk-x86_64/eclipse/eclipse
+Exec=/home/usuario/Downloads/eclipse/eclipse
 Type=Application
-Icon=/home/usuario/Downloads/eclipse-jee-2021-03-R-linux-gtk-x86_64/eclipse/icon.xpm
+Icon=/home/usuario/Downloads/eclipse/icon.xpm
 StartupWMClass=Eclipse
 ```
 
