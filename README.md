@@ -3,11 +3,8 @@
 ## instalação de Java
 
 ```
- sudo echo "deb http://ppa.launchpad.net/linuxuprising/java/ubuntu bionic main" | tee /etc/apt/sources.list.d/linuxuprising-java.list
- sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 73C3DB2A
  sudo apt-get update
- sudo apt-get install oracle-java11-installer
- exit
+ sudo apt-get install openjdk-11-jdk
 ```
 
 Definir o Oracle Java 11 como padrão, caso você já tenha alguma instalação do Java:
@@ -28,7 +25,7 @@ Para verificar a versão do compilador Java:
 Caso queira desinstalar o Oracle Java 11 no Ubuntu, Linux Mint ou Debian, execute o comando abaixo:
 
 ```
- sudo apt remove oracle-java11-set-default
+ sudo apt remove openjdk-11-jdk
 ```
 
 Instalando o Eclipse em ambiente Linux:
